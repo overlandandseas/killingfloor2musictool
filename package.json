@@ -1,5 +1,5 @@
 {
-  "name": "Killing Floor 2 Custom Music Tool",
+  "name": "killing-floor-2-custom-soundtrack-tool",
   "version": "1.0.0",
   "description": "This lets you do your own killing floor 2 soundtrack",
   "main": "main.js",
@@ -21,5 +21,9 @@
   "homepage": "https://github.com/atom/electron-quick-start#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "normalize.css": "^3.0.3"
   }
 }

@@ -1,0 +1,15 @@
+/*css*/
+
+body, html {
+    background-color: #333;
+    color: #fff;
+}
+body {
+    padding: 15px;
+}
+p, a {
+    color: #fff;
+}
+button {
+    color: #000;
+}

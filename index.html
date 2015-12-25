@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+    <title>KF2 Music Thing</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"></link>
+    <link rel="stylesheet" href="kf2music.css" ></link>
+</head>
+<body>
+    <div ng-app="kf2Music">
+        <div ng-controller="kf2MusicController">
+            <h1>{{title}}</h1>
+            <div ng-repeat="song in songs">
+                <h3>Whatever</h3>
+                <p>{{song.toString()}} {{song.fileName}} <a href="#" >change</a> | <a href="#">preview</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="kf2music.js"></script>
+</body>
 </html>
