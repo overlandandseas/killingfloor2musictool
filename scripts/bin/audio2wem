@@ -1,0 +1,32 @@
+#!/bin/sh
+#
+# Converts audio files to Wwise WEM files.
+# Requires FFmpeg and Wwise Authoring Tool + Data
+#
+# Usage:
+#     audio2wem FILE...
+#
+SILENCE=10
+OFFSET_PREVIEW=20
+
+SCRIPTPATH=$0
+if [ "$(uname)" != "Darwin" ]; then
+    SCRIPTPATH=$(readlink -f "$0")
+fi
+THISPATH=$(cd "$(dirname "$SCRIPTPATH")"; pwd)
+
+for var in "$@"
+do
+    BASENAME=$(basename "$var")
+    BASENAME="${BASENAME%.*}"
+
+    tar -zxf "$THISPATH/../share/Wwise_Template.tar.gz"
+    ffmpeg -i "$1" Wwise_Template/Originals/SFX/song.wav
+
+    cd Wwise_Template || exit
+    "$THISPATH/WwiseCLI" Template.wproj -GenerateSoundBanks
+    cd ..
+
+    mv Wwise_Template/.cache/Windows/SFX/*.wem "$BASENAME.wem"
+    rm -fr Wwise_Template
+done
