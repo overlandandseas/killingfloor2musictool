@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>KF2 Music Thing</title>
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"></link>
+    <!-- <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"></link> -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"></link>
     <link rel="stylesheet" href="kf2music.css" ></link>
 </head>
 <body>
     <div ng-app="kf2Music">
         <div ng-controller="kf2MusicController">
-            <h1>{{title}}</h1>
+            <img src="images/KF2_Small_Slider.png" />
+            <h1>Music Tool</h1>
             <div ng-repeat="song in songs">
-                <h3>Whatever</h3>
-                <p>{{song.toString()}} {{song.fileName}} <a href="#" >change</a> | <a href="#">preview</a></p>
+                <div class="song-container" >
+                    {{song.toString()}} {{song.fileName}} <span class="glyphicon glyphicon-open" area-hidden="true"></span> upload
+                </div>
             </div>
         </div>
     </div>
