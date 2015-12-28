@@ -13,3 +13,15 @@ p, a {
 button {
     color: #000;
 }
+
+.kf-title {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.song-container {
+    width: 100%;
+    background-color: #444;
+    border: 1px solid #fff;
+}

@@ -10,8 +10,10 @@
 <body>
     <div ng-app="kf2Music">
         <div ng-controller="kf2MusicController">
-            <img src="images/KF2_Small_Slider.png" />
-            <h1>Music Tool</h1>
+            <div class="kf-title">
+                <img src="images/KF2_Small_Slider.png" />
+                <h1>Music Tool</h1>
+            </div>
             <div ng-repeat="song in songs">
                 <div class="song-container" >
                     {{song.toString()}} {{song.fileName}} <span class="glyphicon glyphicon-open" area-hidden="true"></span> upload
