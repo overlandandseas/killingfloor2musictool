@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>KF2 Music Thing</title>
-    <!-- <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"></link> -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"></link>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"></link>
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"></link> -->
     <link rel="stylesheet" href="kf2music.css" ></link>
 </head>
 <body>
@@ -12,12 +12,13 @@
         <div ng-controller="kf2MusicController">
             <div class="kf-title">
                 <!-- <img src="images/KF2_Small_Slider.png" /> -->
-                <h1>Listing project</h1>
+                <h1>Listings</h1>
             </div>
-            <div ng-repeat="song in songs">
-                <div class="song-container" >
-                    {{song.toString()}} {{song.fileName}} <span class="glyphicon glyphicon-open" area-hidden="true"></span> upload
-                </div>
+            <div ng-repeat="song in songs"class="song-container" >
+                    <span class="number">{{ $index + 1}}.</span> {{song.toString()}} <span class="filename">{{song.fileName}}</span>
+                    <a href="#" class="image-container">
+                        <img class="kf-upload-image" src="images/upload-line.svg">
+                    </a>
             </div>
         </div>
     </div>

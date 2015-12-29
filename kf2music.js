@@ -1,7 +1,6 @@
 //JavaScript
 var angular = require('angular');
 var fs = require('fs');
-
 var Song = function(inTitle, inArtist, inFilename ) {
     this.title = inTitle;
     this.artist = inArtist;
@@ -21,9 +20,17 @@ Song.randomSong = function() {
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
-var data = [Song.randomSong(), Song.randomSong(), Song.randomSong(), Song.randomSong(), Song.randomSong()];
+
+function giveData(arr, num) {
+    for (var c = 0; c < num; c++) {
+        arr.push(Song.randomSong());
+    }
+    return arr;
+}
+
 
 angular.module('kf2Music', []).controller('kf2MusicController', function($scope) {
     $scope.title = "Killing Floor 2 Music Tool";
-    $scope.songs = data;
+
+    $scope.songs = giveData([], 50);
 });
