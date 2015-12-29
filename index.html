@@ -14,8 +14,9 @@
                 <!-- <img src="images/KF2_Small_Slider.png" /> -->
                 <h1>Listings</h1>
             </div>
-            <div ng-repeat="song in songs"class="song-container" >
+            <div ng-repeat="song in songs" class="song-container" >
                     <span class="number">{{ $index + 1}}.</span> {{song.toString()}} <span class="filename">{{song.fileName}}</span>
+                    <span class="replaced-name" ng-show="song.isChanged()">Replaced With {{song.wavName}}</span>
                     <a href="#" class="image-container">
                         <img class="kf-upload-image" src="images/upload-line.svg">
                     </a>

@@ -45,3 +45,7 @@ button {
     height: 24px;
     /*float: right;*/
 }
+.replaced-name {
+    color: #ffd700;
+    font-size: .8em;
+}

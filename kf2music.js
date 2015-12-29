@@ -1,36 +1,15 @@
+'use strict';
 //JavaScript
-var angular = require('angular');
-var fs = require('fs');
-var Song = function(inTitle, inArtist, inFilename ) {
-    this.title = inTitle;
-    this.artist = inArtist;
-    this.fileName = inFilename; //wemcode
-    // this.path = inPath;
-};
-
-Song.prototype.toString = function () {
-    return this.artist + " - " + this.title;
-};
-
-Song.randomSong = function() {
-    return new Song ("Song Title" + getRandomInt(0, 10), "DH_" + getRandomInt(0, 20), getRandomInt(0, 99999) + ".wem");
-}
-
-
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min;
-}
-
-function giveData(arr, num) {
-    for (var c = 0; c < num; c++) {
-        arr.push(Song.randomSong());
-    }
-    return arr;
-}
-
+var angular = require('angular'); //no babel so import does not work.
+const fs = require('fs');
+const Song = require('./Song.js')
 
 angular.module('kf2Music', []).controller('kf2MusicController', function($scope) {
     $scope.title = "Killing Floor 2 Music Tool";
+    $scope.songs = Song.generateSongs([], 50);
 
-    $scope.songs = giveData([], 50);
+    $scope.songs[2].swapOutSong("bring_me_the_horizon_throne.wav");
+    $scope.songs[5].swapOutSong("the_devil_wears_prada_danger_wildman.mp3");
+    $scope.songs[20].swapOutSong("crown_the_empire_makeshift_chemistry.flac");
+
 });
