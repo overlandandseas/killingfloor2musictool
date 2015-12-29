@@ -1,3 +1,10 @@
 Project demon hunter hunter (wip)
 
 This will take a .wav file, turn it into a .wem file and place it in the correct location where your kf2 library is installed.
+
+This is titled as it is to avoid SEO detection of an unfinished product. It is also a private repo but I only get one of these so If i need to make something else private I have a fallback.
+
+
+TODO:
+    make work
+    integrate ci workflow with travis ci.
