@@ -1,0 +1,359 @@
+[
+    {
+        "title": "Song Title1",
+        "artist": "DH_10",
+        "fileName": "68194.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:3"
+    },
+    {
+        "title": "Song Title6",
+        "artist": "DH_8",
+        "fileName": "10326.wem",
+        "initalSize": 1000000,
+        "currentSize": 40,
+        "$$hashKey": "object:4"
+    },
+    {
+        "title": "Song Title8",
+        "artist": "DH_13",
+        "fileName": "39002.wem",
+        "initalSize": 1000000,
+        "currentSize": 500000,
+        "wavName": "bring_me_the_horizon_throne.wav",
+        "$$hashKey": "object:5"
+    },
+    {
+        "title": "Song Title1",
+        "artist": "DH_5",
+        "fileName": "89830.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:6"
+    },
+    {
+        "title": "Song Title4",
+        "artist": "DH_19",
+        "fileName": "96380.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:7"
+    },
+    {
+        "title": "Song Title6",
+        "artist": "DH_16",
+        "fileName": "11012.wem",
+        "initalSize": 1000000,
+        "currentSize": 500000,
+        "wavName": "the_devil_wears_prada_danger_wildman.mp3",
+        "$$hashKey": "object:8"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_16",
+        "fileName": "12004.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:9"
+    },
+    {
+        "title": "Song Title5",
+        "artist": "DH_1",
+        "fileName": "47346.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:10"
+    },
+    {
+        "title": "Song Title5",
+        "artist": "DH_8",
+        "fileName": "95917.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:11"
+    },
+    {
+        "title": "Song Title1",
+        "artist": "DH_12",
+        "fileName": "9691.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:12"
+    },
+    {
+        "title": "Song Title4",
+        "artist": "DH_0",
+        "fileName": "43620.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:13"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_0",
+        "fileName": "96441.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:14"
+    },
+    {
+        "title": "Song Title4",
+        "artist": "DH_4",
+        "fileName": "91123.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:15"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_3",
+        "fileName": "65131.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:16"
+    },
+    {
+        "title": "Song Title0",
+        "artist": "DH_18",
+        "fileName": "14623.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:17"
+    },
+    {
+        "title": "Song Title6",
+        "artist": "DH_13",
+        "fileName": "89456.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:18"
+    },
+    {
+        "title": "Song Title1",
+        "artist": "DH_12",
+        "fileName": "42654.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:19"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_18",
+        "fileName": "18990.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:20"
+    },
+    {
+        "title": "Song Title0",
+        "artist": "DH_8",
+        "fileName": "63492.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:21"
+    },
+    {
+        "title": "Song Title6",
+        "artist": "DH_0",
+        "fileName": "52318.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:22"
+    },
+    {
+        "title": "Song Title9",
+        "artist": "DH_11",
+        "fileName": "6265.wem",
+        "initalSize": 1000000,
+        "currentSize": 500000,
+        "wavName": "crown_the_empire_makeshift_chemistry.flac",
+        "$$hashKey": "object:23"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_3",
+        "fileName": "90157.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:24"
+    },
+    {
+        "title": "Song Title5",
+        "artist": "DH_2",
+        "fileName": "56005.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:25"
+    },
+    {
+        "title": "Song Title8",
+        "artist": "DH_12",
+        "fileName": "99223.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:26"
+    },
+    {
+        "title": "Song Title4",
+        "artist": "DH_9",
+        "fileName": "28539.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:27"
+    },
+    {
+        "title": "Song Title6",
+        "artist": "DH_4",
+        "fileName": "84802.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:28"
+    },
+    {
+        "title": "Song Title9",
+        "artist": "DH_4",
+        "fileName": "24392.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:29"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_8",
+        "fileName": "17722.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:30"
+    },
+    {
+        "title": "Song Title3",
+        "artist": "DH_18",
+        "fileName": "60749.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:31"
+    },
+    {
+        "title": "Song Title4",
+        "artist": "DH_2",
+        "fileName": "93641.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:32"
+    },
+    {
+        "title": "Song Title6",
+        "artist": "DH_0",
+        "fileName": "83998.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:33"
+    },
+    {
+        "title": "Song Title8",
+        "artist": "DH_6",
+        "fileName": "1460.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:34"
+    },
+    {
+        "title": "Song Title1",
+        "artist": "DH_16",
+        "fileName": "87668.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:35"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_3",
+        "fileName": "67390.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:36"
+    },
+    {
+        "title": "Song Title5",
+        "artist": "DH_10",
+        "fileName": "33886.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:37"
+    },
+    {
+        "title": "Song Title9",
+        "artist": "DH_6",
+        "fileName": "79247.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:38"
+    },
+    {
+        "title": "Song Title5",
+        "artist": "DH_16",
+        "fileName": "54121.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:39"
+    },
+    {
+        "title": "Song Title3",
+        "artist": "DH_8",
+        "fileName": "47156.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:40"
+    },
+    {
+        "title": "Song Title2",
+        "artist": "DH_2",
+        "fileName": "5177.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:41"
+    },
+    {
+        "title": "Song Title2",
+        "artist": "DH_1",
+        "fileName": "42159.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:42"
+    },
+    {
+        "title": "Song Title1",
+        "artist": "DH_13",
+        "fileName": "31329.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:43"
+    },
+    {
+        "title": "Song Title8",
+        "artist": "DH_5",
+        "fileName": "49174.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:44"
+    },
+    {
+        "title": "Song Title2",
+        "artist": "DH_15",
+        "fileName": "70226.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:45"
+    },
+    {
+        "title": "Song Title1",
+        "artist": "DH_8",
+        "fileName": "30068.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:46"
+    },
+    {
+        "title": "Song Title2",
+        "artist": "DH_16",
+        "fileName": "44031.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:47"
+    },
+    {
+        "title": "Song Title9",
+        "artist": "DH_12",
+        "fileName": "43010.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:48"
+    },
+    {
+        "title": "Song Title8",
+        "artist": "DH_19",
+        "fileName": "25365.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:49"
+    },
+    {
+        "title": "Song Title5",
+        "artist": "DH_7",
+        "fileName": "71022.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:50"
+    },
+    {
+        "title": "Song Title6",
+        "artist": "DH_3",
+        "fileName": "12589.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:51"
+    },
+    {
+        "title": "Song Title7",
+        "artist": "DH_17",
+        "fileName": "1398.wem",
+        "initalSize": 1000000,
+        "$$hashKey": "object:52"
+    }
+]

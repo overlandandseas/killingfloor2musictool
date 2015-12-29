@@ -24,7 +24,7 @@ button {
     /*width: 85%;*/
     background-color: #282828;
     border-top: 1px solid #444;
-    padding: 15px 15px;
+    padding: 15px 0 15px 15px;
     /*height: 32px;*/
 }
 
@@ -40,12 +40,25 @@ button {
     /*height: 32px;*/
     float: right;
     /*background-color: #444;*/
+    padding: 10px 15px;
+    position:relative;
+    top: -15px;
+    cursor: pointer;
 }
+
+.image-container:hover {
+    background-color: #944;
+}
+
 .kf-upload-image {
     height: 24px;
+    cursor: pointer;
     /*float: right;*/
 }
 .replaced-name {
     color: #ffd700;
     font-size: .8em;
+}
+.file-input {
+    display: none;
 }
