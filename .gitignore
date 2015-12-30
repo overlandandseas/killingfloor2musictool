@@ -3,4 +3,4 @@ scripts/test/
 *.ipynb
 *.pyc
 build/
-data/modifieddata.json
+releases/
