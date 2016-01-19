@@ -8,7 +8,7 @@ const Song = require('./Song');
 angular.module('kf2Music', []).controller('kf2MusicController', function($scope) {
     $scope.title = "Killing Floor 2 Music Tool";
     // $scope.songs = Song.generateSongs([], 50);
-    let songArr = JSON.parse(fs.readFileSync('data/INITALDATA.json'));
+    let songArr = JSON.parse(fs.readFileSync(__dirname + '/data/INITALDATA.json'));
     console.log(songArr);
     $scope.songs = Song.generateSongsFromArray(songArr);
     $scope.h3Tag = "GENERATE TEH JASONS"
