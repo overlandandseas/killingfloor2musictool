@@ -4,7 +4,13 @@
   "description": "This lets you do your own killing floor 2 soundtrack",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "clean": "rimraf ./dist",
+    "clean:win": "rimraf ./dist/win",
+    "clean:osx": "rimraf ./dist/osx",
+    "build": "npm run clean && npm run build:osx && npm run build:win",
+    "build:win": "npm run clean:win && electron-packager ./ \"ProjectDemonHunterHunter\" --out=dist/win --platform=win32 --arch=x64 --version=0.34.1 --icon=assets/win/kfthingy.ico",
+    "build:osx": "npm run clean:osx && electron-packager ./ \"ProjectDemonHunterHunter\" --out=dist/osx --platform=darwin --arch=x64 --version=0.34.1 --icon=assets/osx/WhatsApp.icns"
   },
   "repository": {
     "type": "git",
@@ -20,7 +26,9 @@
   },
   "homepage": "https://github.com/atom/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.0",
+    "rimraf": "^2.5.0"
   },
   "dependencies": {
     "angular": "^1.4.8",
