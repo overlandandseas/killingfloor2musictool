@@ -6,3 +6,5 @@ build/
 releases/
 dist/
 assets/Wwise_Template/
+Wwise_Template/
+showdown.wav

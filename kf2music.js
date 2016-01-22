@@ -13,14 +13,10 @@ angular.module('kf2Music', []).controller('kf2MusicController', function($scope)
     let validSongArr = JSON.parse(fs.readFileSync(__dirname + '/data/initialdata.json'));
 
     console.log(validSongArr);
-    // $scope.songs = Song.generateSongsFromArray(songArr);
     $scope.songs = KfStreamedAudio.generateSongsFromArray(validSongArr);
-    $scope.h3Tag = "GENERATE TEH JASONS";
 
-
-    // $scope.songs[2].swapOutSong("bring_me_the_horizon_throne.wav");
-    // $scope.songs[5].swapOutSong("the_devil_wears_prada_danger_wildman.mp3");
-    // $scope.songs[20].swapOutSong("crown_the_empire_makeshift_chemistry.flac");
+    KfStreamedAudio.setKfPath("C:\\Program Files (x86)\\Steam\\steamapps\\common\\killingfloor2\\KFGame");
+    KfStreamedAudio.setWwiseCliPath("C:\\Program Files (x86)\\Audiokinetic\\Wwise v2015.1.4 build 5497\\Authoring\\Win32\\Release\\bin\\WwiseCLI.exe");
 
     $scope.killMe = function () {
         fs.writeFile('data/initalData.json', JSON.stringify(this.songs, null, 4), function () {
