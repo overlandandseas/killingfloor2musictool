@@ -21,12 +21,12 @@
                         Replaced With {{song.wavName || "UNKNOWN FILE"}}
                     </span>
                     <label ng-attr-for="{{$index + 'fileinput'}}">
-                    <span class="image-container" >
+                    <span class="image-container">
                         <img class="kf-upload-image" src="images/upload-line.svg" >
                     </span>
                     </label>
                     <input class="file-input" type="file" ng-attr-id="{{$index + 'fileinput'}}" onChange="angular.element(this).scope().fileChanges(angular.element(this).scope().$index, this)" ng-model="file"/> <!-- yeah i know -->
-            </div>
+           </div>
         </div>
     </div>
     <script src="kf2music.js"></script>

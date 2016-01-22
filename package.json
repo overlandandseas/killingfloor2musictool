@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+    "url": "git+https://github.com/overlandandseas/projectdemonhunterhunter.git"
   },
   "keywords": [
     "Electron"

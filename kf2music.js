@@ -2,16 +2,20 @@
 //JavaScript
 var angular = require('angular'); //no babel so import does not work.
 const fs = require('fs');
-const Song = require('./Song');
+const Song = require('./Song'); //this was for demo data during prototyping
+const KfStreamedAudio = require('./KfStreamedAudio');
 
 
 angular.module('kf2Music', []).controller('kf2MusicController', function($scope) {
     $scope.title = "Killing Floor 2 Music Tool";
     // $scope.songs = Song.generateSongs([], 50);
-    let songArr = JSON.parse(fs.readFileSync(__dirname + '/data/INITALDATA.json'));
-    console.log(songArr);
-    $scope.songs = Song.generateSongsFromArray(songArr);
-    $scope.h3Tag = "GENERATE TEH JASONS"
+    let songArr = JSON.parse(fs.readFileSync(__dirname + '/data/nah.json'));
+    let validSongArr = JSON.parse(fs.readFileSync(__dirname + '/data/initialdata.json'));
+
+    console.log(validSongArr);
+    // $scope.songs = Song.generateSongsFromArray(songArr);
+    $scope.songs = KfStreamedAudio.generateSongsFromArray(validSongArr);
+    $scope.h3Tag = "GENERATE TEH JASONS";
 
 
     // $scope.songs[2].swapOutSong("bring_me_the_horizon_throne.wav");
@@ -25,8 +29,8 @@ angular.module('kf2Music', []).controller('kf2MusicController', function($scope)
     };
 
     $scope.fileChanges = function (index, input) {
-        console.log(input.value);
-        $scope.songs[index].swapOutSong(input.value);
+        console.log(input.files[0].path);
+        $scope.songs[index].swapAudioSource(input.files[0].name, input.files[0].path);
         $scope.$apply();
     };
 
