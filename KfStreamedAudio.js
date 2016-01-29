@@ -4,12 +4,7 @@
 const fs = require('fs');
 const cp = require('child_process');
 const rimraf = require('rimraf');
-const Promse = require('bluebird');
-
-const rimrafAsyc = Promise.promisify(rimraf);
-const execAsync = Promise.promisify(exec);
-
-Promise.promisifyAll(fs);
+const targz = require('targz');
 
 class KfStreamedAudio {
 
@@ -56,6 +51,13 @@ class KfStreamedAudio {
         return this.kfPath;
     }
 
+    //@TODO make sure this is actually working.
+
+    //private methods
+    static _unzipWwiseTemplate(cb) {
+        
+    }
+
     //non-static methods
     toString() {
         return this.name;
@@ -64,6 +66,7 @@ class KfStreamedAudio {
     isChanged() {
         return !!this.wavName;
     }
+
 
     //the big one (not at the moment)
     swapAudioSource(inName, inPath) {

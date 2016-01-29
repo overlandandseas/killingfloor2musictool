@@ -32,7 +32,7 @@ rimraf(`${__dirname}\\Wwise_Template`, {}, () => {
             console.log("Wav File Renamed");
             cp.exec(`"C:\\Program Files (x86)\\Audiokinetic\\Wwise v2015.1.4 build 5497\\Authoring\\Win32\\Release\\bin\\WwiseCLI.exe" "${__dirname}\\Wwise_Template\\Template.wproj" -GenerateSoundBanks -Platform Windows -Verbose`, {shell: 'cmd.exe'}, (err) => {
                 if(err) {
-                    console.log("Erroed on the last thing", err);
+                    console.log("Errored on the last thing", err);
                     return;
                 }
                 console.log("File Created? song_2C5DABC5.wem");

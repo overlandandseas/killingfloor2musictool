@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron main.js",
     "clean": "rm -rf ./dist",
-    "build": "npm run clean:win && electron-packager ./ \"ProjectDemonHunterHunter\" --out=dist/win --platform=win32 --arch=x64 --version=0.36.0 --icon=assets/win/kfthingy.ico"
+    "build": "npm run clean && electron-packager ./ \"ProjectDemonHunterHunter\" --out=dist/win --platform=win32 --arch=x64 --version=0.36.0 --icon=assets/win/kfthingy.ico"
   },
   "repository": {
     "type": "git",
@@ -27,11 +27,14 @@
   },
   "dependencies": {
     "angular": "^1.4.8",
+    "archiver": "^0.21.0",
     "bluebird": "^3.1.1",
     "bootstrap": "^3.3.6",
     "fs-extra": "^0.26.4",
     "normalize.css": "^3.0.3",
     "rimraf": "^2.5.0",
-    "tar": "^2.2.1"
+    "tar": "^2.2.1",
+    "targz": "^1.0.1",
+    "unzip": "^0.1.11"
   }
 }
