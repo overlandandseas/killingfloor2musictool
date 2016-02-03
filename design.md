@@ -1,23 +1,29 @@
 # Design Thing
-
 ## Classes
-   +  Wem
-   +  KfGame
-   +  TargzTool
++  KfGame
++  Wem
++  TargzTool
 
 ### KFGame
-    
-    + Wems (array of Wem)
-    +
-
+#### Data Members
+``` javascript
++ Wems //array of Wem
++ pathToKfInstall
+```
+#### methods
+``` javascript
++ searchForDefaultInstall() // sets the value of pathToKfInstall
+```
 
 ### Wem
-#### DataMembers
-    + id
-    + name
-    + audioSourceFile
-    + generatedAudioFile
-    + notes
-    + wavName
+#### Data Members
+``` javascript
++ id
++ name
++ audioSourceFile
++ generatedAudioFile
++ notes
++ wavName
+```
 #### methods
-    + swapAudio()
++ swapAudio()
