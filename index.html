@@ -16,9 +16,9 @@
         <!-- <h3><a ng-click="killMe()">{{ h3Tag }}</a></h3> -->
       </div>
       <p ng-show="!kfPathFound">"killingfloor2" Folder Not Found! <input type="file" onChange="angular.element(this).scope().defineKillingFloor(this)" /></p>
-      <p ng-show="kfPathFound" class="replaced-name">"killingfloor2" found at default location</p>
+      <p ng-show="kfPathFound" class="replaced-name">"killingfloor2" found at <span class="path-name">{{kfPath}}</span></p>
       <p ng-show="!wwisePathFound">"WwiseCLI.exe" Found! <input type="file" onChange="angular.element(this).scope().defineKillingFloor(this)" /></p>
-      <p ng-show="wwisePathFound" class="replaced-name">"WwiseCLI.exe" found at default location.</p>
+      <p ng-show="wwisePathFound" class="replaced-name">"WwiseCLI.exe" found at <span class="path-name">{{wwisePath}}</span></p>
       <div ng-repeat="song in songs" class="song-container" >
         <span class="number">{{ $index + 1}}.</span> {{song.toString()}} <span class="filename">{{song.fileName}}</span>
         <span class="replaced-name" ng-show="song.isChanged()">

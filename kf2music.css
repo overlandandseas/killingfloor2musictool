@@ -27,7 +27,10 @@ button {
     padding: 15px 0 15px 15px;
     /*height: 32px;*/
 }
-
+.path-name {
+  font-size: .6rem;
+  color: #999;
+}
 .number {
     font-size: .7em;
 }

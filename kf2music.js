@@ -15,6 +15,8 @@ angular.module('kf2Music', []).controller('kf2MusicController', function($scope)
 
   $scope.kfPathFound = KfStreamedAudio.searchForDefaultKfPath()
   $scope.wwisePathFound = KfStreamedAudio.searchForDefaultWwisePath()
+  $scope.kfPath = KfStreamedAudio.getKfPath()
+  $scope.wwisePath = KfStreamedAudio.getWwiseCliPath()
 
 
   console.log(validSongArr);
@@ -31,9 +33,16 @@ angular.module('kf2Music', []).controller('kf2MusicController', function($scope)
 
   $scope.fileChanges = function (index, input) {
     console.log(input.files[0].path);
-    $scope.songs[index].swapAudioSource(input.files[0].name, input.files[0].path);
-    $scope.$apply();
-  };
+    $scope.songs[index].swapAudioSource(input.files[0].path, err => {
+      $scope.$apply();
+    });
 
+  };
+  $scope.defineKillingFloor = function (input) {
+    KfStreamedAudio.setKfPath(input.files[0].path.substr(0,59))
+    $scope.kfPathFound = true
+    $scope.kfPath = input.files[0].path.substr(0,59)
+    $scope.$apply()
+  }
 
 });

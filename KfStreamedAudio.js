@@ -1,8 +1,8 @@
 'use strict';
 
 //imports
-const fs = require('fs');
-const cp = require('child_process');
+const fs = require('fs-extra');
+const exec = require('child_process').exec;
 const rimraf = require('rimraf');
 const targz = require('targz');
 
@@ -31,7 +31,7 @@ class KfStreamedAudio {
     return kfArr;
   }
 
-  //create KfStreamedAduio from object
+  //create KfStreamedAudio from object
   static object2KfStreamAudio(inObj) {
     return new KfStreamedAudio(inObj["ID"], inObj["Name"], inObj["Audio source file"], inObj["Generated audio file"], inObj["Wwise Object Path"], inObj["Notes"]);
   }
@@ -52,28 +52,25 @@ class KfStreamedAudio {
   }
 
   static searchForDefaultKfPath() {
-    if(fs.statSync("C:\\Program Files (x86)\\Steam\\steamapps\\common\\killingfloor2\\KFGame").isDirectory()) {
-      this.setKfPath("C:\\Program Files (x86)\\Steam\\steamapps\\common\\killingfloor2\\KFGame\\BrewedPC\\WwiseAudio\\Windows\\English(US)")
-      return true
-    } else {
-      return false
+    try {
+      if(fs.lstatSync("C:\\Program Files (x86)\\Steam\\steamapps\\common\\killingfloor2").isDirectory()) {
+        this.setKfPath("C:\\Program Files (x86)\\Steam\\steamapps\\common\\killingfloor2")
+        return true
+      } else {
+        return false
+      }
+    } catch (e) {
+      console.log(e)
     }
   }
 
   static searchForDefaultWwisePath() {
-    if(fs.statSync("C:\\Program Files (x86)\\Audiokinetic\\Wwise v2015.1.4 build 5497\\Authoring\\Win32\\Release\\bin\\WwiseCLI.exe").isFile()) {
+    if(fs.lstatSync("C:\\Program Files (x86)\\Audiokinetic\\Wwise v2015.1.4 build 5497\\Authoring\\Win32\\Release\\bin\\WwiseCLI.exe").isFile()) {
       this.setWwiseCliPath("C:\\Program Files (x86)\\Audiokinetic\\Wwise v2015.1.4 build 5497\\Authoring\\Win32\\Release\\bin\\WwiseCLI.exe")
       return true
     } else {
       return false
     }
-  }
-
-  //@TODO make sure this is actually working.
-
-  //private methods
-  static _unzipWwiseTemplate(cb) {
-
   }
 
   //non-static methods
@@ -87,10 +84,37 @@ class KfStreamedAudio {
 
 
   //the big one (not at the moment)
-  swapAudioSource(inName, inPath) {
+  swapAudioSource(inPath, cb) {
     //@TODO Everything...
+    //ENTER THE CALLBACK HELL
+    targz.decompress({
+      src: `${__dirname}\\assets\\Wwise_Template_Migration.tar.gz`,
+      dest: `${__dirname}\\assets\\WwiseProject`}, err => {
+        if(err) throw err
+        console.log('unzipped tar file')
+        fs.copy(inPath, `${__dirname}\\assets\\WwiseProject\\WWise_Template\\Originals\\SFX\\song.wav`, err => {
+          if(err) throw err
+          console.log("Song copied into correct path")
+          exec(`"${KfStreamedAudio.getWwiseCliPath()}" "${__dirname}\\assets\\WwiseProject\\WWise_Template\\Template.wproj" -GenerateSoundBanks -Platform Windows -Verbose`, {shell: 'cmd.exe'}, err => {
+            if(err) throw err
+            console.log("Execued Correct WWise command")
+            fs.copy(`${__dirname}\\assets\\WwiseProject\\Wwise_Template\\.cache\\Windows\\SFX\\song_2C5DABC5.wem`, `${KfStreamedAudio.getKfPath()}\\BrewedPC\\WwiseAudio\\Windows\\${this.generatedAudioFile}`, err => {
+              console.log("REMOVED your song file and replaced it with the one you wanted");
+              this.wavName = inPath
+              rimraf(`${__dirname}\\assets\\WiseProject`, err => {
+                if(err) throw err
+                cb(false)
+              })
+            })
+          })
+        })
+      })
+
+
+
+
+    }
+
   }
 
-}
-
-module.exports = KfStreamedAudio;
+  module.exports = KfStreamedAudio;
