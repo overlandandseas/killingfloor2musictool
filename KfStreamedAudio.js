@@ -109,10 +109,6 @@ class KfStreamedAudio {
           })
         })
       })
-
-
-
-
     }
 
   }
