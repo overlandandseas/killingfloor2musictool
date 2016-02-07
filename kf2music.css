@@ -54,6 +54,15 @@ h1 {
 .image-container:hover {
     background-color: #944;
 }
+.path-finder-image img{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.path-finder-image img:hover {
+  background-color: #ffd700;
+  border-radius: 5px;
+}
 
 .kf-upload-image {
     height: 24px;
@@ -66,4 +75,7 @@ h1 {
 }
 .file-input {
     display: none;
+}
+.not-found {
+  text-align: center;
 }

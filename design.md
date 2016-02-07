@@ -12,6 +12,7 @@
 ```
 #### methods
 ``` javascript
++ constructor() // will do some shit MAAAAANNNNNNNN
 + searchForDefaultInstall() // sets the value of pathToKfInstall
 ```
 
