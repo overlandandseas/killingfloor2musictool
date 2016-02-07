@@ -8,3 +8,9 @@ This is titled as it is to avoid SEO detection of an unfinished product. It is a
 TODO:
     Xmake workX
     make work with any type of audio file
+
+To try it out yourself
+    clone this repo
+    cd projectdemonhunterhunter
+    npm install
+    npm start
