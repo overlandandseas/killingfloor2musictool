@@ -26,11 +26,21 @@ angular.module('projectDemonHunterHunter', []).controller('kf2MusicController', 
     $scope.$apply()
   }
   $scope.fileChanges = function (index, input) {
-    let wavePath = input.files[0].path
-    if(path.extname(wavePath) === wem) {
+    let wavPath = input.files[0].path
+    if(path.extname(wavPath) === ".wav") {
+      $scope.songs[index].loading = true
+      $scope.$apply()
+
+      $scope.songs[index].replaceAudioSource(wavPath, wwiser, kfGame, function (err) {
+        if(err) throw err
+        console.log("ALL DONE!")
+        $scope.songs[index].loading = false
+        $scope.songs[index].wavName = path.basename(wavPath)
+        $scope.$apply()
+      })
 
     } else {
-      window.alert("Please select a wave file")
+      window.alert("Please select a WAV file")
       return
     }
   }

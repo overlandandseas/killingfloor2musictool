@@ -70,8 +70,16 @@ h1 {
     /*float: right;*/
 }
 .replaced-name {
-    color: #ffd700;
+    color: #99d799;
     font-size: .8em;
+}
+.replaced-loading {
+  color: #ffd700;
+  font-size: .8em;
+}
+.sub-styling {
+  color: #dbaf00;
+  font-size: .8em;
 }
 .file-input {
     display: none;
