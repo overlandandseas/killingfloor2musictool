@@ -23,7 +23,12 @@
         </label>
         <input id="kf-game-path-finder" type="file" class="file-input" onChange="angular.element(this).scope().getkfpath(this)" />
       </p>
-      <p ng-show="wwPath" class="replaced-name">Wwise.exe found at <span class="path-name">{{wwPath}}</span></p>
+
+
+      <p ng-show="kfPath" class="replaced-name">KFGame.exe found at <span class="path-name">{{kfPath}}</span></p>
+
+
+
       <p ng-show="!wwPath" class="not-found">File "Wwise.exe" Not Found! <br>
         <label for="ww-game-path-finder">
           <span class="path-finder-image">
@@ -32,9 +37,10 @@
         </label>
         <input id="ww-game-path-finder" type="file" class="file-input" onChange="angular.element(this).scope().getwwpath(this)" />
       </p>
+
       <p ng-show="wwPath" class="replaced-name">Wwise.exe found at <span class="path-name">{{wwPath}}</span></p>
-
-
+      <br>
+      <b>Please upload a .wav file to be replace the ingame song</b>
       <div ng-repeat="song in songs" class="song-container" ng-show="kfPath">
         <span class="number">{{ $index + 1}}.</span> {{song.name}} <span class="filename">{{song.generatedAudioFile}}</span>
         <span class="replaced-name" ng-show="song.isChanged">
@@ -49,6 +55,6 @@
       </div>
     </div>
   </div>
-  <script src="script.js"></script>
+  <script src="driver.js"></script>
 </body>
 </html>

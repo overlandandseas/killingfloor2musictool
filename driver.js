@@ -20,10 +20,19 @@ angular.module('projectDemonHunterHunter', []).controller('kf2MusicController', 
     $scope.$apply()
   }
 
-  $scope.getwwpath(input) {
+  $scope.getwwpath = function (input) {
     wwiser.checkPath(input.files[0].path)
-    $scope.wwPath = wwise.EXEPATH ? `${path.dirname(wwiser.EXEPATH)}\\Wwise.exe` : null
+    $scope.wwPath = wwiser.EXEPATH ? `${path.dirname(wwiser.EXEPATH)}\\Wwise.exe` : null
     $scope.$apply()
+  }
+  $scope.fileChanges = function (index, input) {
+    let wavePath = input.files[0].path
+    if(path.extname(wavePath) === wem) {
+
+    } else {
+      window.alert("Please select a wave file")
+      return
+    }
   }
 
 })
