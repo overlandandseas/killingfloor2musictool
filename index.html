@@ -23,9 +23,18 @@
         </label>
         <input id="kf-game-path-finder" type="file" class="file-input" onChange="angular.element(this).scope().getkfpath(this)" />
       </p>
-      <p ng-show="kfPath" class="replaced-name">KFGame.exe found at <span class="path-name">{{kfPath}}</span></p>
-      <!-- <p ng-show="!wwisePathFound">"WwiseCLI.exe" Found! <input type="file" onChange="angular.element(this).scope().defineKillingFloor(this)" /></p>
-      <p ng-show="wwisePathFound" class="replaced-name">"WwiseCLI.exe" found at <span class="path-name">{{wwisePath}}</span></p> -->
+      <p ng-show="wwPath" class="replaced-name">Wwise.exe found at <span class="path-name">{{wwPath}}</span></p>
+      <p ng-show="!wwPath" class="not-found">File "Wwise.exe" Not Found! <br>
+        <label for="ww-game-path-finder">
+          <span class="path-finder-image">
+            <img src="images/upload-fill.svg" />
+          </span>
+        </label>
+        <input id="ww-game-path-finder" type="file" class="file-input" onChange="angular.element(this).scope().getwwpath(this)" />
+      </p>
+      <p ng-show="wwPath" class="replaced-name">Wwise.exe found at <span class="path-name">{{wwPath}}</span></p>
+
+
       <div ng-repeat="song in songs" class="song-container" ng-show="kfPath">
         <span class="number">{{ $index + 1}}.</span> {{song.name}} <span class="filename">{{song.generatedAudioFile}}</span>
         <span class="replaced-name" ng-show="song.isChanged">
