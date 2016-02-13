@@ -39,6 +39,7 @@
       </p>
 
       <p ng-show="wwPath" class="sub-styling">Wwise.exe found at <span class="path-name">{{wwPath}}</span></p>
+      <a href="#" ng-click="saveStatus()">Save Status</a>
       <br>
       <b>Please upload a .wav file to be replace the ingame song</b>
       <div ng-repeat="song in songs" class="song-container" ng-show="kfPath">

@@ -1,0 +1,670 @@
+{
+    "audioSources": [
+        {
+            "generatedAudioFile": "824809299.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\Defend The Crown WITH VOCALS NO COMPRESSOR _853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT BAJ KF2-5-3\\MUS_BAJ_KF2-5-3\\BAJ_ZedTimeThrash",
+            "name": "BAJ_ZedTimeThrash",
+            "ID": 824809299,
+            "$$hashKey": "object:7"
+        },
+        {
+            "generatedAudioFile": "91404098.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\Defend The Crown NO VOCALS NO COMPRESSOR_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT BAJ KF2-5-3 Inst\\MUS_BAJ_KF2-5-3_Inst\\BAJ_ZedTimeThrash_Inst",
+            "name": "BAJ_ZedTimeThrash_Inst",
+            "ID": 91404098,
+            "$$hashKey": "object:8"
+        },
+        {
+            "generatedAudioFile": "794797214.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\Dirge_Disunion_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT D Disunion\\MACT D Disunion\\MACT D Disunion",
+            "name": "MACT D Disunion",
+            "ID": 794797214,
+            "$$hashKey": "object:9"
+        },
+        {
+            "generatedAudioFile": "875245223.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\Dirge_Disunion_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT D Disunion_Inst\\MACT D Disunion Inst\\MACT D Disunion Inst",
+            "name": "MACT D Disunion Inst",
+            "ID": 875245223,
+            "$$hashKey": "object:10"
+        },
+        {
+            "generatedAudioFile": "703171051.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\Made for War NO VOCALS NO COMPRESSOR_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT BAJ KF2-8 Inst\\MUS_BAJ_KF2-8_Inst\\MUS_BAJ_MadeForWar",
+            "wavName": "11-remember.wav",
+            "name": "MUS_BAJ_MadeForWar",
+            "ID": 703171051,
+            "$$hashKey": "object:11",
+            "wav": "C:\\Users\\lucas\\Music\\11-remember.wav"
+        },
+        {
+            "generatedAudioFile": "334070552.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\Made for War WITH VOCALS NO COMPRESSOR_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT BAJ KF2-8\\MUS_BAJ_KF2-8\\MUS_BAJ_MadeForWar_Vocals",
+            "name": "MUS_BAJ_MadeForWar_Vocals",
+            "ID": 334070552,
+            "$$hashKey": "object:12"
+        },
+        {
+            "generatedAudioFile": "266996076.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\BTA_Mountain_Of_Souls_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT BTA MountainOfSouls\\MUS_BTA_MountainOfSouls\\MUS_BTA_MountainOfSouls",
+            "name": "MUS_BTA_MountainOfSouls",
+            "ID": 266996076,
+            "$$hashKey": "object:13"
+        },
+        {
+            "generatedAudioFile": "208008864.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\BTA_Mountain_Of_Souls_ Instrumental_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT BTA MountainOfSouls Inst\\MUS_BTA_MountainOfSouls_Inst\\MUS_BTA_MountainOfSouls_Inst",
+            "name": "MUS_BTA_MountainOfSouls_Inst",
+            "ID": 208008864,
+            "$$hashKey": "object:14"
+        },
+        {
+            "generatedAudioFile": "233235147.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Collapsing_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Collapsing\\MUS_DH_Collapsing\\MUS_DH_Collapsing",
+            "name": "MUS_DH_Collapsing",
+            "ID": 233235147,
+            "$$hashKey": "object:15"
+        },
+        {
+            "generatedAudioFile": "1068004181.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Collapsing_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Collapsing Inst\\MUS_DH_Collapsing_Inst\\MUS_DH_Collapsing_Inst",
+            "name": "MUS_DH_Collapsing_Inst",
+            "ID": 1068004181,
+            "$$hashKey": "object:16"
+        },
+        {
+            "generatedAudioFile": "819756736.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_CrossToBear_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH CrossToBear\\MUS_DH_CrossToBear\\MUS_DH_CrossToBear",
+            "name": "MUS_DH_CrossToBear",
+            "ID": 819756736,
+            "$$hashKey": "object:17"
+        },
+        {
+            "generatedAudioFile": "224999787.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_CrossToBear_Instrumental_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH CrossToBear Inst\\MUS_DH_CrossToBear_Inst\\MUS_DH_CrossToBear_Inst",
+            "name": "MUS_DH_CrossToBear_Inst",
+            "ID": 224999787,
+            "$$hashKey": "object:18"
+        },
+        {
+            "generatedAudioFile": "253249981.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Death_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Death\\MUS_DH_Death\\MUS_DH_Death",
+            "name": "MUS_DH_Death",
+            "ID": 253249981,
+            "$$hashKey": "object:19"
+        },
+        {
+            "generatedAudioFile": "248136263.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Death_Instrumental_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Death Inst\\MUS_DH_Death_Inst\\MUS_DH_Death_Inst",
+            "name": "MUS_DH_Death_Inst",
+            "ID": 248136263,
+            "$$hashKey": "object:20"
+        },
+        {
+            "generatedAudioFile": "705601758.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Fire_To_My_Soul_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH FireToMySoul\\MUS_DH_FireToMySoul\\MUS_DH_FireToMySoul",
+            "name": "MUS_DH_FireToMySoul",
+            "ID": 705601758,
+            "$$hashKey": "object:21"
+        },
+        {
+            "generatedAudioFile": "55960868.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Fire_To_My_Soul_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH FireToMySoul_NV\\MUS_DH_FireToMySoul_Inst\\MUS_DH_FireToMySoul_Inst",
+            "name": "MUS_DH_FireToMySoul_Inst",
+            "ID": 55960868,
+            "$$hashKey": "object:22"
+        },
+        {
+            "generatedAudioFile": "173574803.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_I_Have_Seen_Where_It_Grows_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH IHaveSeen\\MUS_DH_IHaveSeenWhereItGrows\\MUS_DH_IHaveSeenWhereItGrows",
+            "name": "MUS_DH_IHaveSeenWhereItGrows",
+            "ID": 173574803,
+            "$$hashKey": "object:23"
+        },
+        {
+            "generatedAudioFile": "175062997.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_I_Have_Seen_Where_It_Grows_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH IHaveSeen NV\\MUS_DH_IHaveSeenWhereItGrows_Inst\\MUS_DH_IHaveSeenWhereItGrows_Inst",
+            "name": "MUS_DH_IHaveSeenWhereItGrows_Inst",
+            "ID": 175062997,
+            "$$hashKey": "object:24"
+        },
+        {
+            "generatedAudioFile": "385941448.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Infected_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Infected\\MUS_DH_Infected\\MUS_DH_Infected",
+            "name": "MUS_DH_Infected",
+            "ID": 385941448,
+            "$$hashKey": "object:25"
+        },
+        {
+            "generatedAudioFile": "684760652.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Infected_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Infected Inst\\MUS_DH_Infected_Inst\\MUS_DH_Infected_Inst",
+            "name": "MUS_DH_Infected_Inst",
+            "ID": 684760652,
+            "$$hashKey": "object:26"
+        },
+        {
+            "generatedAudioFile": "626555168.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_LifeWar_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH LifeWar\\MUS_DH_LifeWar\\MUS_DH_LifeWar",
+            "name": "MUS_DH_LifeWar",
+            "ID": 626555168,
+            "$$hashKey": "object:27"
+        },
+        {
+            "generatedAudioFile": "55010382.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Lifewar_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH LifeWar Inst\\MUS_DH_Lifewar_Inst\\MUS_DH_Lifewar_Inst",
+            "name": "MUS_DH_Lifewar_Inst",
+            "ID": 55010382,
+            "$$hashKey": "object:28"
+        },
+        {
+            "generatedAudioFile": "650319090.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Not_I_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH NotI\\MUS_DH_NotI\\MUS_DH_NotI",
+            "wavName": "10-snowmobile-chase.wav",
+            "name": "MUS_DH_NotI",
+            "ID": 650319090,
+            "$$hashKey": "object:29",
+            "wav": "C:\\Users\\lucas\\Music\\10-snowmobile-chase.wav"
+        },
+        {
+            "generatedAudioFile": "2804434.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Not_I_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH NotI Inst\\MUS_DH_NotI_Inst\\MUS_DH_NotI_Inst",
+            "name": "MUS_DH_NotI_Inst",
+            "ID": 2804434,
+            "$$hashKey": "object:30"
+        },
+        {
+            "generatedAudioFile": "777333871.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Ribcage_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Ribcage\\MUS_DH_Ribcage\\MUS_DH_Ribcage",
+            "name": "MUS_DH_Ribcage",
+            "ID": 777333871,
+            "$$hashKey": "object:31"
+        },
+        {
+            "generatedAudioFile": "600236485.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Ribcage_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH Ribcage Inst\\MUS_DH_Ribcage_Inst\\MUS_DH_Ribcage_Inst",
+            "name": "MUS_DH_Ribcage_Inst",
+            "ID": 600236485,
+            "$$hashKey": "object:32"
+        },
+        {
+            "generatedAudioFile": "774576841.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Someone_To_Hate_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH SomeoneToHate\\MUS_DH_SomeoneToHate\\MUS_DH_SomeoneToHate",
+            "name": "MUS_DH_SomeoneToHate",
+            "ID": 774576841,
+            "$$hashKey": "object:33"
+        },
+        {
+            "generatedAudioFile": "903188724.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Someone_To_Hate_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH SomeoneToHate Inst\\MUS_DH_SomeoneToHate_Inst\\MUS_DH_SomeoneToHate_Inst",
+            "name": "MUS_DH_SomeoneToHate_Inst",
+            "ID": 903188724,
+            "$$hashKey": "object:34"
+        },
+        {
+            "generatedAudioFile": "452933142.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_This_I_Know_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH ThisIKnow\\MUS_DH_ThisIKnow\\MUS_DH_ThisIKnow",
+            "name": "MUS_DH_ThisIKnow",
+            "ID": 452933142,
+            "$$hashKey": "object:35"
+        },
+        {
+            "generatedAudioFile": "694542208.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_This_I_Know_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH ThisIKnow Inst\\MUS_DH_ThisIKnow_Inst\\MUS_DH_ThisIKnow_Inst",
+            "name": "MUS_DH_ThisIKnow_Inst",
+            "ID": 694542208,
+            "$$hashKey": "object:36"
+        },
+        {
+            "generatedAudioFile": "130693836.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Turn_Your_Back_And_Run_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH TurnYourBackAndRun\\MUS_DH_TurnYourBackAndRun\\MUS_DH_TurnYourBackAndRun",
+            "name": "MUS_DH_TurnYourBackAndRun",
+            "ID": 130693836,
+            "$$hashKey": "object:37"
+        },
+        {
+            "generatedAudioFile": "753137995.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_Turn_Your_Back_And_Run_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH TurnYourBackAndRun Inst\\MUS_DH_TurnYourBackAndRun_Inst\\MUS_DH_TurnYourBackAndRun_Inst",
+            "name": "MUS_DH_TurnYourBackAndRun_Inst",
+            "ID": 753137995,
+            "$$hashKey": "object:38"
+        },
+        {
+            "generatedAudioFile": "458177891.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_We_Dont_Care_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH WeDontCare\\MUS_DH_WeDontCare\\MUS_DH_WeDontCare",
+            "name": "MUS_DH_WeDontCare",
+            "ID": 458177891,
+            "$$hashKey": "object:39"
+        },
+        {
+            "generatedAudioFile": "790848346.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\DemonHunter_We_Dont_Care_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT DH WeDontCare Inst\\MUS_DH_WeDontCare_Inst\\MUS_DH_WeDontCare_Inst",
+            "name": "MUS_DH_WeDontCare_Inst",
+            "ID": 790848346,
+            "$$hashKey": "object:40"
+        },
+        {
+            "generatedAudioFile": "13429030.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\FitForAKing_Bitter_End_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT FFAK BitterEnd\\MUS_FFAK_BitterEnd\\MUS_FFAK_BitterEnd",
+            "wavName": "10-snowmobile-chase.wav",
+            "name": "MUS_FFAK_BitterEnd",
+            "ID": 13429030,
+            "$$hashKey": "object:41",
+            "wav": "C:\\Users\\lucas\\Music\\10-snowmobile-chase.wav"
+        },
+        {
+            "generatedAudioFile": "727223910.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\FitForAKing_Bitter_End_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT FFAK BitterEnd Inst\\MUS_FFAK_BitterEnd_Inst\\MUS_FFAK_BitterEnd_Inst",
+            "name": "MUS_FFAK_BitterEnd_Inst",
+            "ID": 727223910,
+            "$$hashKey": "object:42"
+        },
+        {
+            "generatedAudioFile": "173127909.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\ImpendingDoom_DeathWillReign_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT ID DeathWillReign\\MUS_ID_DeathWillReign\\MUS_ID_DeathWillReign",
+            "name": "MUS_ID_DeathWillReign",
+            "ID": 173127909,
+            "$$hashKey": "object:43"
+        },
+        {
+            "generatedAudioFile": "397012885.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\ImpendingDoom_DeathWillReign_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT ID DeathWillReign Inst\\MUS_ID_DeathWillReign_Inst\\MUS_ID_DeathWillReign_Inst",
+            "name": "MUS_ID_DeathWillReign_Inst",
+            "ID": 397012885,
+            "$$hashKey": "object:44"
+        },
+        {
+            "generatedAudioFile": "519506136.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\ImpendingDoom_Murderer_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT ID Murderer\\MUS_ID_Murderer\\MUS_ID_Murderer",
+            "name": "MUS_ID_Murderer",
+            "ID": 519506136,
+            "$$hashKey": "object:45"
+        },
+        {
+            "generatedAudioFile": "499508076.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\ImpendingDoom_Murderer_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT ID Murderer Inst\\MUS_ID_Murderer_Inst\\MUS_ID_Murderer_Inst",
+            "name": "MUS_ID_Murderer_Inst",
+            "ID": 499508076,
+            "$$hashKey": "object:46"
+        },
+        {
+            "generatedAudioFile": "261396539.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\ImpendingDoom_RavenousDisease_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT ID RavenousDisease\\MUS_ID_RavenousDisease\\MUS_ID_RavenousDisease",
+            "name": "MUS_ID_RavenousDisease",
+            "ID": 261396539,
+            "$$hashKey": "object:47"
+        },
+        {
+            "generatedAudioFile": "312960212.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\ImpendingDoom_RavenousDisease_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT ID RavenousDisease Inst\\MUS_ID_RavenousDisease_Inst\\MUS_ID_RavenousDisease_Inst",
+            "name": "MUS_ID_RavenousDisease_Inst",
+            "ID": 312960212,
+            "$$hashKey": "object:48"
+        },
+        {
+            "generatedAudioFile": "625191858.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_Bloodwork_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS Bloodwork\\MUS_LS_Bloodwork\\MUS_LS_Bloodwork",
+            "name": "MUS_LS_Bloodwork",
+            "ID": 625191858,
+            "$$hashKey": "object:49"
+        },
+        {
+            "generatedAudioFile": "380056903.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_Bloodwork_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS Bloodwork Inst\\MUS_LS_Bloodwork_Inst\\MUS_LS_Bloodwork_Inst",
+            "name": "MUS_LS_Bloodwork_Inst",
+            "ID": 380056903,
+            "$$hashKey": "object:50"
+        },
+        {
+            "generatedAudioFile": "269533657.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_DeathMachine_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS DeathMachine\\MUS_LS_Death_Machine\\MUS_LS_Death_Machine",
+            "name": "MUS_LS_Death_Machine",
+            "ID": 269533657,
+            "$$hashKey": "object:51"
+        },
+        {
+            "generatedAudioFile": "251322738.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_DeathMachine_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS DeathMachine Inst\\MUS_LS_DeathMachine_Inst\\MUS_LS_DeathMachine_Inst",
+            "name": "MUS_LS_DeathMachine_Inst",
+            "ID": 251322738,
+            "$$hashKey": "object:52"
+        },
+        {
+            "generatedAudioFile": "826181804.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_Despair_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS Despair\\MUS_LS_Despair\\MUS_LS_Despair",
+            "name": "MUS_LS_Despair",
+            "ID": 826181804,
+            "$$hashKey": "object:53"
+        },
+        {
+            "generatedAudioFile": "367363167.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_Despair_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS Despair Inst\\MUS_LS_Despair_Inst\\MUS_LS_Despair_Inst",
+            "name": "MUS_LS_Despair_Inst",
+            "ID": 367363167,
+            "$$hashKey": "object:54"
+        },
+        {
+            "generatedAudioFile": "36420045.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_Flatline_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS Flatline\\MUS_LS_Flatline\\MUS_LS_Flatline",
+            "name": "MUS_LS_Flatline",
+            "ID": 36420045,
+            "$$hashKey": "object:55"
+        },
+        {
+            "generatedAudioFile": "816101927.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_Flatline_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS Flatline Inst\\MUS_LS_Flatline_Inst\\MUS_LS_Flatline_Inst",
+            "name": "MUS_LS_Flatline_Inst",
+            "ID": 816101927,
+            "$$hashKey": "object:56"
+        },
+        {
+            "generatedAudioFile": "214950414.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_HandOfTheDead_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS HandOfTheDead\\MUS_LS_HandOfTheDead\\MUS_LS_HandOfTheDead",
+            "name": "MUS_LS_HandOfTheDead",
+            "ID": 214950414,
+            "$$hashKey": "object:57"
+        },
+        {
+            "generatedAudioFile": "932505984.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_HandOfTheDead_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS HandOfTheDead Inst\\MUS_LS_HandOfTheDead_Inst\\MUS_LS_HandOfTheDead_Inst",
+            "name": "MUS_LS_HandOfTheDead_Inst",
+            "ID": 932505984,
+            "$$hashKey": "object:58"
+        },
+        {
+            "generatedAudioFile": "429277412.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_NotMyOwn_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS NotMyOwn\\MUS_LS_NotMyOwn\\MUS_LS_NotMyOwn",
+            "name": "MUS_LS_NotMyOwn",
+            "ID": 429277412,
+            "$$hashKey": "object:59"
+        },
+        {
+            "generatedAudioFile": "965102729.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_NotMyOwn_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS NotMyOwn Inst\\MUS_LS_NotMyOwn_Inst\\MUS_LS_NotMyOwn_Inst",
+            "name": "MUS_LS_NotMyOwn_Inst",
+            "ID": 965102729,
+            "$$hashKey": "object:60"
+        },
+        {
+            "generatedAudioFile": "203364808.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_SomethingMore_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS SomethingMore\\MUS_LS_SomethingMore\\MUS_LS_SomethingMore",
+            "name": "MUS_LS_SomethingMore",
+            "ID": 203364808,
+            "$$hashKey": "object:61"
+        },
+        {
+            "generatedAudioFile": "364805875.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_SomethingMore_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS SomethingMore Inst\\MUS_LS_SomethingMore_Inst\\MUS_LS_SomethingMore_Inst",
+            "name": "MUS_LS_SomethingMore_Inst",
+            "ID": 364805875,
+            "$$hashKey": "object:62"
+        },
+        {
+            "generatedAudioFile": "216812998.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_TheReaping_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS TheReaping\\MUS_LS_TheReaping\\MUS_LS_TheReaping",
+            "name": "MUS_LS_TheReaping",
+            "ID": 216812998,
+            "$$hashKey": "object:63"
+        },
+        {
+            "generatedAudioFile": "816474391.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_TheReaping_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS TheReaping Inst\\MUS_LS_TheReaping_Inst\\MUS_LS_TheReaping_Inst",
+            "name": "MUS_LS_TheReaping_Inst",
+            "ID": 816474391,
+            "$$hashKey": "object:64"
+        },
+        {
+            "generatedAudioFile": "258775615.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_YourWar_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS YourWar\\MUS_LS_YourWar\\MUS_LS_YourWar",
+            "name": "MUS_LS_YourWar",
+            "ID": 258775615,
+            "$$hashKey": "object:65"
+        },
+        {
+            "generatedAudioFile": "80301865.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\LivingSacrifice_YourWar_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT LS YourWar Inst\\MUS_LS_YourWar_Inst\\MUS_LS_YourWar_Inst",
+            "name": "MUS_LS_YourWar_Inst",
+            "ID": 80301865,
+            "$$hashKey": "object:66"
+        },
+        {
+            "generatedAudioFile": "429600732.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\RockyGray_Clone_Mutation_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT RG CloneMutation Inst\\MUS_RG_CloneMutation_Inst\\MUS_RG_CloneMutation_Inst",
+            "name": "MUS_RG_CloneMutation_Inst",
+            "ID": 429600732,
+            "$$hashKey": "object:67"
+        },
+        {
+            "generatedAudioFile": "506615545.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\RockyGray_Creeping_Zed_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT RG CreepingZed Inst\\MUS_RG_CreepingZed_Inst\\MUS_RG_CreepingZed_Inst",
+            "name": "MUS_RG_CreepingZed_Inst",
+            "ID": 506615545,
+            "$$hashKey": "object:68"
+        },
+        {
+            "generatedAudioFile": "308661427.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\RockyGray_Kill_Or_Be_Killed_Inst_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT RG KillOrBeKilled Inst\\MUS_RG_KillOrBeKilled_Inst\\MUS_RG_KillOrBeKilled_Inst",
+            "name": "MUS_RG_KillOrBeKilled_Inst",
+            "ID": 308661427,
+            "$$hashKey": "object:69"
+        },
+        {
+            "generatedAudioFile": "666327332.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\MUS_SH_Boss_DieVolter_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT SH Boss DieVolter\\MUS_SH_Boss_DieVolter\\MUS_SH_Boss_DieVolter",
+            "name": "MUS_SH_Boss_DieVolter",
+            "ID": 666327332,
+            "$$hashKey": "object:70"
+        },
+        {
+            "generatedAudioFile": "347135049.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Relentless ACT 115_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action115\\MUS_Z_Action_115\\MUS_Z_Action_115",
+            "name": "MUS_Z_Action_115",
+            "ID": 347135049,
+            "$$hashKey": "object:71"
+        },
+        {
+            "generatedAudioFile": "655856778.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\Pat_Music_Edit_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Boss Patriarch\\MACT Boss Patriarch\\Pat_Music_Edit",
+            "name": "Pat_Music_Edit",
+            "ID": 655856778,
+            "$$hashKey": "object:72"
+        },
+        {
+            "generatedAudioFile": "52726504.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Bloodlust ACT 300_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action300\\MUS_Z_Action_300\\zYnthetic_Bloodlust ACT 300",
+            "name": "zYnthetic_Bloodlust ACT 300",
+            "ID": 52726504,
+            "$$hashKey": "object:73"
+        },
+        {
+            "generatedAudioFile": "294661981.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_ByTheThroat ACT 206_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action206\\MUS_Z_Action_206\\zYnthetic_ByTheThroat ACT 206",
+            "name": "zYnthetic_ByTheThroat ACT 206",
+            "ID": 294661981,
+            "$$hashKey": "object:74"
+        },
+        {
+            "generatedAudioFile": "19144916.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_DeathMarches ACT 205_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action205\\MUS_Z_Action_205\\zYnthetic_DeathMarches ACT 205",
+            "name": "zYnthetic_DeathMarches ACT 205",
+            "ID": 19144916,
+            "$$hashKey": "object:75"
+        },
+        {
+            "generatedAudioFile": "994889024.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Devour ACT 201_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action201\\MUS_Z_Action_201\\zYnthetic_Devour ACT 201",
+            "name": "zYnthetic_Devour ACT 201",
+            "ID": 994889024,
+            "$$hashKey": "object:76"
+        },
+        {
+            "generatedAudioFile": "432993134.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_HarbingerOfDestruction ACT 116_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action116\\MUS_Z_Action_116\\zYnthetic_HarbingerOfDestruction ACT 116",
+            "name": "zYnthetic_HarbingerOfDestruction ACT 116",
+            "ID": 432993134,
+            "$$hashKey": "object:77"
+        },
+        {
+            "generatedAudioFile": "999858308.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Horrorshow ACT 304_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action304\\MUS_Z_Action_304\\zYnthetic_Horrorshow ACT 304",
+            "name": "zYnthetic_Horrorshow ACT 304",
+            "ID": 999858308,
+            "$$hashKey": "object:78"
+        },
+        {
+            "generatedAudioFile": "145948109.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Hydra ACT 210_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action210\\MUS_Z_Action_210\\zYnthetic_Hydra ACT 210",
+            "name": "zYnthetic_Hydra ACT 210",
+            "ID": 145948109,
+            "$$hashKey": "object:79"
+        },
+        {
+            "generatedAudioFile": "180341320.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_ImageCorruptor ACT 208_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action208\\MUS_Z_Action_208\\zYnthetic_ImageCorruptor ACT 208",
+            "name": "zYnthetic_ImageCorruptor ACT 208",
+            "ID": 180341320,
+            "$$hashKey": "object:80"
+        },
+        {
+            "generatedAudioFile": "131033496.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Incarnate ACT 209_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action209\\MUS_Z_Action_209\\zYnthetic_Incarnate ACT 209",
+            "name": "zYnthetic_Incarnate ACT 209",
+            "ID": 131033496,
+            "$$hashKey": "object:81"
+        },
+        {
+            "generatedAudioFile": "34624129.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_PlagueUnit ACT 305_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action305\\MUS_Z_Action_305\\zYnthetic_PlagueUnit ACT 305",
+            "name": "zYnthetic_PlagueUnit ACT 305",
+            "ID": 34624129,
+            "$$hashKey": "object:82"
+        },
+        {
+            "generatedAudioFile": "957139672.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Recombinant ACT 119_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action119\\MUS_Z_Action_119\\zYnthetic_Recombinant ACT 119",
+            "name": "zYnthetic_Recombinant ACT 119",
+            "ID": 957139672,
+            "$$hashKey": "object:83"
+        },
+        {
+            "generatedAudioFile": "981835725.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Redwash ACT 306_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action306\\MUS_Z_Action_306\\zYnthetic_Redwash ACT 306",
+            "name": "zYnthetic_Redwash ACT 306",
+            "ID": 981835725,
+            "$$hashKey": "object:84"
+        },
+        {
+            "generatedAudioFile": "887928631.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Slither ACT 302_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action302\\MUS_Z_Action_302\\zYnthetic_Slither ACT 302",
+            "name": "zYnthetic_Slither ACT 302",
+            "ID": 887928631,
+            "$$hashKey": "object:85"
+        },
+        {
+            "generatedAudioFile": "866911584.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_TargetPriority ACT 207_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action207\\MUS_Z_Action_207\\zYnthetic_TargetPriority ACT 207",
+            "name": "zYnthetic_TargetPriority ACT 207",
+            "ID": 866911584,
+            "$$hashKey": "object:86"
+        },
+        {
+            "generatedAudioFile": "744802984.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_ToTheSlaughter ACT 303_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action303\\MUS_Z_Action_303\\zYnthetic_ToTheSlaughter ACT 303",
+            "name": "zYnthetic_ToTheSlaughter ACT 303",
+            "ID": 744802984,
+            "$$hashKey": "object:87"
+        },
+        {
+            "generatedAudioFile": "831448325.wem",
+            "audioSourceFile": "G:\\KF2_Main\\KFGame\\Content\\Packages\\Audio\\WWISE\\.cache\\Windows\\SFX\\zYnthetic_Tyrant ACT 113_853B4453.wem",
+            "wwiseObjectPath": "\\Interactive Music Hierarchy\\MUS ACT\\MACT Z Action113\\MUS_Z_Action_113\\zYnthetic_Tyrant ACT 113",
+            "name": "zYnthetic_Tyrant ACT 113",
+            "ID": 831448325,
+            "$$hashKey": "object:88"
+        }
+    ],
+    "kfPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\killingfloor2\\KFGame\\BrewedPC\\WwiseAudio\\Windows\\English(US)",
+    "kfGamePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\killingfloor2\\Binaries\\Win64\\KFGame.exe",
+    "wwPath": "C:\\Program Files (x86)\\Audiokinetic\\Wwise v2015.1.4 build 5497\\Authoring\\Win32\\Release\\bin\\WwiseCLI.exe",
+    "wwExcePath": "C:\\Program Files (x86)\\Audiokinetic\\Wwise v2015.1.4 build 5497\\Authoring\\Win32\\Release\\bin\\Wwise.exe"
+}
