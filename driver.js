@@ -22,7 +22,7 @@ angular.module('projectDemonHunterHunter', []).controller('kf2MusicController', 
     $scope.kfPath = kfGame.GAMEPATH ? `${path.dirname(kfGame.GAMEPATH)}\\KFGame.exe` : null
     $scope.$apply()
   }
-
+  
   $scope.getwwpath = function (input) {
     wwiser.checkPath(input.files[0].path)
     $scope.wwPath = wwiser.EXEPATH ? `${path.dirname(wwiser.EXEPATH)}\\Wwise.exe` : null
