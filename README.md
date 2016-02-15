@@ -1,5 +1,5 @@
 # Project Demon Hunter Hunter
-Simple GUI tool (windows only) to change and insert your own custom music in Killing Floor 2.  
+Simple GUI tool to change and insert your own custom music in Killing Floor 2.  
 ![Killing Floor Music Tool](https://github.com/overlandandseas/projectdemonhunterhunter/raw/master/assets/github/kf2musictool.png)
 ### Requirements
 + Killing Floor 2
